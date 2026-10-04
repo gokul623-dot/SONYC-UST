@@ -1,0 +1,9 @@
+class_name,threshold,precision,recall,f1,true_positive,false_positive,false_negative,true_negative,actual_positive_count,predicted_positive_count
+engine,0.37,0.6328,0.6711,0.6513,255,148,125,136,380,403
+machinery_impact,0.92,0.0,0.0,0.0,0,0,26,638,26,0
+non_machinery_impact,0.81,0.6667,0.0775,0.1389,20,10,238,396,258,30
+powered_saw,0.41,0.0,0.0,0.0,0,0,9,655,9,0
+alert_signal,0.54,0.3218,0.2154,0.2581,28,59,102,475,130,87
+music,0.44,0.4348,0.339,0.381,20,26,39,579,59,46
+human_voice,0.8,0.8477,0.4169,0.559,128,23,179,334,307,151
+dog,0.95,0.0989,0.3103,0.15,9,82,20,553,29,91

@@ -1,0 +1,131 @@
+{
+    "number_of_test_samples": 664,
+    "model_checkpoint": "soundsense_data\\models\\weighted_best_model.pth",
+    "checkpoint_epoch": 5,
+    "thresholds_used": {
+        "engine": 0.37,
+        "machinery_impact": 0.92,
+        "non_machinery_impact": 0.81,
+        "powered_saw": 0.41,
+        "alert_signal": 0.54,
+        "music": 0.44,
+        "human_voice": 0.8,
+        "dog": 0.95
+    },
+    "macro_precision": 0.3753282395450309,
+    "macro_recall": 0.25377782699892176,
+    "macro_f1": 0.2672748434005483,
+    "micro_precision": 0.5693069306930693,
+    "micro_recall": 0.38397328881469117,
+    "micro_f1": 0.45862412761714855,
+    "total_true_positives": 460,
+    "total_false_positives": 348,
+    "total_false_negatives": 738,
+    "total_true_negatives": 3766,
+    "per_class_metrics": {
+        "engine": {
+            "threshold": 0.37,
+            "precision": 0.6327543424317618,
+            "recall": 0.6710526315789473,
+            "f1": 0.6513409961685823,
+            "true_positive": 255,
+            "false_positive": 148,
+            "false_negative": 125,
+            "true_negative": 136,
+            "actual_positive_count": 380,
+            "predicted_positive_count": 403
+        },
+        "machinery_impact": {
+            "threshold": 0.92,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 26,
+            "true_negative": 638,
+            "actual_positive_count": 26,
+            "predicted_positive_count": 0
+        },
+        "non_machinery_impact": {
+            "threshold": 0.81,
+            "precision": 0.6666666666666666,
+            "recall": 0.07751937984496124,
+            "f1": 0.1388888888888889,
+            "true_positive": 20,
+            "false_positive": 10,
+            "false_negative": 238,
+            "true_negative": 396,
+            "actual_positive_count": 258,
+            "predicted_positive_count": 30
+        },
+        "powered_saw": {
+            "threshold": 0.41,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "false_positive": 0,
+            "false_negative": 9,
+            "true_negative": 655,
+            "actual_positive_count": 9,
+            "predicted_positive_count": 0
+        },
+        "alert_signal": {
+            "threshold": 0.54,
+            "precision": 0.3218390804597701,
+            "recall": 0.2153846153846154,
+            "f1": 0.2580645161290323,
+            "true_positive": 28,
+            "false_positive": 59,
+            "false_negative": 102,
+            "true_negative": 475,
+            "actual_positive_count": 130,
+            "predicted_positive_count": 87
+        },
+        "music": {
+            "threshold": 0.44,
+            "precision": 0.43478260869565216,
+            "recall": 0.3389830508474576,
+            "f1": 0.38095238095238093,
+            "true_positive": 20,
+            "false_positive": 26,
+            "false_negative": 39,
+            "true_negative": 579,
+            "actual_positive_count": 59,
+            "predicted_positive_count": 46
+        },
+        "human_voice": {
+            "threshold": 0.8,
+            "precision": 0.847682119205298,
+            "recall": 0.4169381107491857,
+            "f1": 0.5589519650655022,
+            "true_positive": 128,
+            "false_positive": 23,
+            "false_negative": 179,
+            "true_negative": 334,
+            "actual_positive_count": 307,
+            "predicted_positive_count": 151
+        },
+        "dog": {
+            "threshold": 0.95,
+            "precision": 0.0989010989010989,
+            "recall": 0.3103448275862069,
+            "f1": 0.15,
+            "true_positive": 9,
+            "false_positive": 82,
+            "false_negative": 20,
+            "true_negative": 553,
+            "actual_positive_count": 29,
+            "predicted_positive_count": 91
+        }
+    },
+    "default_0_5_comparison": {
+        "macro_precision": 0.36580246755458345,
+        "macro_recall": 0.4833279586391336,
+        "macro_f1": 0.34641644467655286,
+        "micro_precision": 0.39624505928853754,
+        "micro_recall": 0.669449081803005,
+        "micro_f1": 0.4978274363749224
+    }
+}

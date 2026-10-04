@@ -1,3 +1,44 @@
+# ==============================================================================
+# SoundSense – .gitignore
+# ==============================================================================
+
+# Raw SONYC-UST Audio Files & Annotations
 audio-*/
+*.wav
+*.mp3
+*.flac
+*.ogg
 annotations.csv
+
+# Precomputed Feature Caches (Very Large: tens of thousands of .npy files)
+soundsense_data/features/
+*.npy
+*.npz
+
+# Generated Spectrogram Plots
+soundsense_data/test_spectrograms/
+
+# Python Cache & Bytecode
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & Editor Specific Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Streamlit Local Config & Cache
+.streamlit/

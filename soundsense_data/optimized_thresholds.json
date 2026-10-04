@@ -1,0 +1,10 @@
+{
+    "engine": 0.37,
+    "machinery_impact": 0.92,
+    "non_machinery_impact": 0.81,
+    "powered_saw": 0.41,
+    "alert_signal": 0.54,
+    "music": 0.44,
+    "human_voice": 0.8,
+    "dog": 0.95
+}
