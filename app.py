@@ -52,7 +52,7 @@ TARGET_DURATION_SEC = 10.0
 EXPECTED_SAMPLES = int(SAMPLE_RATE * TARGET_DURATION_SEC)  # 480,000 samples
 EXPECTED_FRAMES = 938  # 1 + 480000 // 512
 
-CHECKPOINT_PATH = os.path.join("soundsense_data", "models", "weighted_best_model.pth")
+CHECKPOINT_PATH = os.path.join("soundsense_data", "models", "cached_baseline_best_model.pth")
 THRESHOLDS_PATH = os.path.join("soundsense_data", "optimized_thresholds.json")
 
 
